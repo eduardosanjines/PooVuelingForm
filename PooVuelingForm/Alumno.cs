@@ -14,7 +14,6 @@ namespace PooVuelingForm
         public String dni { get; set; }
         public override string ToString() {
             return "id: " + id + "\nNombre: " + nombre + "\nApellido: " + apellido + "\ndni: " + dni;
-
         }
 
     }
